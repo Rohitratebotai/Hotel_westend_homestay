@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAward } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import "./About.css";
-import aboutimg from '../assets/img_5.webp';
+import aboutimg from '../assets/sitting_area.jpeg';
 
 const About = () => {
   const scrollToRooms = () => {
