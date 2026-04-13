@@ -6,7 +6,7 @@ import {
   faWineGlass,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Dining.css";
-import img from '../assets/img_3.webp'
+import img from '../assets/dining.jpeg';
 
 const Dining = () => {
   const scrollToContact = () => {

@@ -11,6 +11,9 @@ import img6 from '../assets/img_9.webp'
 import img7 from '../assets/img_1.webp'
 import img8 from '../assets/img_2.webp'
 import img9 from '../assets/room1.webp'
+import img10 from '../assets/room4.jpeg'
+import img11 from '../assets/img_3.webp'
+import img12 from '../assets/room6.jpeg'
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -51,6 +54,18 @@ const Gallery = () => {
     },
     {
       src: img9,
+      alt: " Room",
+    },
+    {
+      src: img10,
+      alt: " Restaurant",
+    },
+    {
+      src: img11,
+      alt: " Spa",
+    },
+    {
+      src: img12,
       alt: " Room",
     },
   ];

@@ -12,8 +12,8 @@ import {
 import { motion } from "framer-motion";
 import "./Rooms.css";
 import suitroom from '../assets/room1.webp';
-import premium from '../assets/room2.jpg'
-import deluxe from '../assets/room3.jpg'
+import premium from '../assets/room4.jpeg'
+import deluxe from '../assets/room5.jpeg'
 const Rooms = () => {
   const rooms = [
     {
