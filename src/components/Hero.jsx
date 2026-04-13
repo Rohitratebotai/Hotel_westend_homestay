@@ -16,6 +16,7 @@ import img2 from '../assets/img_2.webp';
 import img3 from '../assets/img_3.webp';
 import img4 from '../assets/img_4.webp';
 import img5 from '../assets/img_5.webp';
+import img6 from '../assets/banner5.jpeg';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -24,6 +25,10 @@ const Hero = () => {
     {
       image: img1,
       alt: " west end home stay Exterior",
+    },
+    {
+      image: img6,
+      alt: " outside view",
     },
     {
       image: img2,
