@@ -6,7 +6,7 @@ import "./Testimonials.css";
 const Testimonials = () => {
   const testimonials = [
     {
-      text: "Our stay at Hotel West End Home Stay was truly relaxing. The rooms were clean and comfortable, and the surrounding hill views were beautiful. The hosts were very warm and welcoming.",
+      text: "Our stay at West End Home Stay was truly relaxing. The rooms were clean and comfortable, and the surrounding hill views were beautiful. The hosts were very warm and welcoming.",
       author: "Rahul Sharma",
       designation: "Leisure Traveler",
     },

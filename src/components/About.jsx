@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAward } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import "./About.css";
+import aboutimg from '../assets/img_5.webp';
 
 const About = () => {
   const scrollToRooms = () => {
@@ -16,7 +17,7 @@ const About = () => {
           <span className="section-subtitle">Discover Serenity</span>
           <h2 className="section-title">A Peaceful Stay to Remember</h2>
           <p className="section-description">
-            Hotel West End Home Stay offers a refreshing escape amidst the scenic
+             West End Home Stay offers a refreshing escape amidst the scenic
             beauty of Mashobra. Surrounded by lush greenery and peaceful hills,
             we bring you a perfect blend of comfort, warmth, and memorable
             experiences.
@@ -34,7 +35,7 @@ const About = () => {
             >
               <h3>Your Home Away From Home</h3>
               <p>
-                At Hotel West End Home Stay, we welcome you with genuine
+                At  West End Home Stay, we welcome you with genuine
                 hospitality and a cozy atmosphere. Whether you're here for a
                 relaxing getaway or a peaceful retreat, enjoy comfortable
                 accommodations, beautiful surroundings, and personalized care
@@ -68,7 +69,7 @@ const About = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <img src="/images/3Z4A5800.jpeg" alt="Hotel West End Home Stay Mashobra" />
+              <img src={aboutimg} alt=" West End Home Stay Mashobra" />
               <div className="image-badge">
                 <FontAwesomeIcon icon={faAward} />
                 <span>Warm Hospitality</span>

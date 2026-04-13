@@ -18,40 +18,40 @@ const Gallery = () => {
   const images = [
     {
       src: img1,
-      alt: "Hotel Exterior",
+      alt: " Exterior",
 
     },
     {
       src: img2,
-      alt: "Hotel Interior",
+      alt: " Interior",
     },
     {
       src: img3,
-      alt: "Hotel Room",
+      alt: " Room",
     },
     {
       src: img4,
-      alt: "Hotel Facilities",
+      alt: " Facilities",
     },
     {
       src: img5,
-      alt: "Hotel Suite",
+      alt: " Suite",
     },
     {
       src: img6,
-      alt: "Hotel Pool",
+      alt: " Pool",
     },
     {
       src: img7,
-      alt: "Hotel Restaurant",
+      alt: " Restaurant",
     },
     {
       src: img8,
-      alt: "Hotel Spa",
+      alt: " Spa",
     },
     {
       src: img9,
-      alt: "Hotel Room",
+      alt: " Room",
     },
   ];
 
@@ -68,9 +68,9 @@ const Gallery = () => {
       <div className="container">
         <div className="section-header">
           <span className="section-subtitle">Visual Journey</span>
-          <h2 className="section-title">Hotel Gallery</h2>
+          <h2 className="section-title"> Gallery</h2>
           <p className="section-description">
-            Take a visual tour of our beautiful hotel and premium amenities.
+            Take a visual tour of our beautiful  and premium amenities.
           </p>
         </div>
 

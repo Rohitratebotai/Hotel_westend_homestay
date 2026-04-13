@@ -18,8 +18,7 @@ const Footer = () => {
             <div className="footer-logo">
               <img src={logo} className="w-4 h-4" alt="Logo" />
               <p>
-                Experience luxury hospitality in the heart of Kozhikode with
-                premium accommodations and exceptional service.
+                Luxury stays with serene mountain views and warm, personalized hospitality.
               </p>
             </div>
           </div>
@@ -94,7 +93,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Hotel west end home stay. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} west end home stay. All Rights Reserved.</p>
           <p>
             Powered by{" "}
             <a

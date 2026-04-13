@@ -43,7 +43,7 @@ const Header = () => {
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
-            {/* <span className="logo-text">Hotel west end home stay</span> */}
+            {/* <span className="logo-text">West End Homestay</span> */}
             <img src={logo} className="w-6 h-6" alt="Hello" />
           </div>
 

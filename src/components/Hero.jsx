@@ -23,23 +23,23 @@ const Hero = () => {
   const slides = [
     {
       image: img1,
-      alt: "Hotel west end home stay Exterior",
+      alt: " west end home stay Exterior",
     },
     {
       image: img2,
-      alt: "Hotel Interior",
+      alt: " Interior",
     },
     {
       image: img3,
-      alt: "Hotel Room",
+      alt: " Room",
     },
     {
       image: img4,
-      alt: "Hotel Facilities",
+      alt: " Facilities",
     },
     {
       image: img5,
-      alt: "Hotel Suite",
+      alt: " Suite",
     },
   ];
 
@@ -96,17 +96,17 @@ const Hero = () => {
             transition={{ duration: 1 }}
           >
             <span className="title-accent">Welcome to</span>
-            <span className="title-main">Hotel west end home stay</span>
+            <span className="title-main">W E H S</span>
           </motion.h1>
 
           <motion.p
-  className="hero-subtitle"
-  initial={{ opacity: 0, y: 30 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1, delay: 0.2 }}
->
-  Experience the charm of the hills at Hotel West End Home Stay, nestled in the serene surroundings of Mashobra. Enjoy comfortable stays, beautiful views, and warm hospitality that makes you feel right at home.
-</motion.p>
+            className="hero-subtitle"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.2 }}
+          >
+            Experience the charm of the hills at West End Home Stay, nestled in the serene surroundings of Mashobra. Enjoy comfortable stays, beautiful views, and warm hospitality that makes you feel right at home.
+          </motion.p>
 
           <motion.div
             className="hero-actions"
