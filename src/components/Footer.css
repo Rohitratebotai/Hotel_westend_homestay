@@ -110,3 +110,39 @@
     font-size: 18px;
   }
 }
+
+/* Social Icons Container */
+.footer-socials {
+  display: flex;
+  gap: 14px;
+  margin-top: 15px;
+}
+
+/* Circle Button */
+.footer-socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  /* 🔥 size of circle */
+  height: 42px;
+  /* 🔥 size of circle */
+  border-radius: 50%;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon Size */
+.footer-socials img {
+  width: 20px;
+  /* 🔥 icon size */
+  height: 20px;
+  object-fit: contain;
+}
+
+/* Hover Effect */
+.footer-socials a:hover {
+  transform: translateY(-3px) scale(1.1);
+  background-color: #f1f1f1;
+}

@@ -20,6 +20,32 @@ const Footer = () => {
               <p>
                 Luxury stays with serene mountain views and warm, personalized hospitality.
               </p>
+
+              {/* 👉 ADD HERE */}
+              <div className="footer-socials">
+                <a
+                  href="https://www.instagram.com/ashok.chauhan.1426?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+                    alt="Instagram"
+                  />
+                </a>
+
+                <a
+                  href="https://www.facebook.com/ashok.chauhan.1426"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+                    alt="Facebook"
+                  />
+                </a>
+              </div>
+
             </div>
           </div>
 

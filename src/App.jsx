@@ -12,10 +12,12 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import BookingModal from "./components/BookingModal";
 import "./App.css";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 function App() {
   return (
     <Router>
+      <WhatsAppButton />
       <div className="App">
         <Header />
         <Routes>
